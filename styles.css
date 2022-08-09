@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 10rem;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: solid;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
+}
+
+.container-small {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: solid;
+    width: 20rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+.container-small2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: solid;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+}
+
+.inputRow {
+    width: 7rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+}
+
+.footer a {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+}
+
+#botaoCalculo{
+    border-radius: 5px;
+    border: solid;
+    font-weight: 500;
+}
+
+#botaoCalculo:hover{
+    border-radius: 5px;
+    border: solid blue;
+    color: white;
+    background-color: blue;
+    opacity: 75%;
+}
